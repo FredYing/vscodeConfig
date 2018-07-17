@@ -1,0 +1,73 @@
+{
+    "editor.wordWrap": "on",
+    "editor.renderLineHighlight": "none",
+    "editor.lineHeight": 22,
+    "editor.roundedSelection": true,
+    "extensions.autoUpdate": true,
+    // "editor.fontFamily": "PingFang SC",
+    "editor.fontSize": 12,
+    "editor.tabSize": 4,
+    "emmet.syntaxProfiles": {
+        "vue": "html"
+    },
+    "files.associations": {
+        "*.ejs": "html",
+        "*.wxml": "html",
+        "*.wxss": "css"
+    },
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorBlinking": "smooth",
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": true,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "editor.codeLens": true,
+    "editor.snippetSuggestions": "top",
+    "docthis.includeDescriptionTag": true,
+    "docthis.enableHungarianNotationEvaluation": true,
+    "docthis.inferTypesFromNames": true,
+    "docthis.includeAuthorTag": true,
+    "docthis.authorName": "FerdYing",
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/tmp": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": false
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "[markdown]": {},
+    "importCost.typescriptExtensions": [
+        "\\.vue?$"
+    ],
+    "workbench.colorTheme": "Visual Studio Dark",
+    "gitlens.keymap": "none",
+    "gitlens.historyExplorer.enabled": true,"prettier.tabWidth": 4,
+
+}
