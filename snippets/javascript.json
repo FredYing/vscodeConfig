@@ -37,7 +37,7 @@
             "* @param {object} d - 参数d为一个对象",
             "*/"
         ],
-        "description": "export zhushimoban"
+        "description": "zhushimoban"
     },
     "Print to module.exports": {
         "prefix": "met",
@@ -45,5 +45,12 @@
             "module.exports = $1"
         ],
         "description": "export some modules"
-    }
+    },
+    "import { render } from ": {
+        "prefix": "imren",
+        "body": [
+            "import { render } from 'react-dom';"
+        ],
+        "description": "import render"
+    },
 }

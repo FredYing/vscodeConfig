@@ -68,6 +68,10 @@
     ],
     "workbench.colorTheme": "Visual Studio Dark",
     "gitlens.keymap": "none",
-    "gitlens.historyExplorer.enabled": true,"prettier.tabWidth": 4,
-
+    "gitlens.historyExplorer.enabled": true,
+    "prettier.tabWidth": 4,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html"
+    },
 }
